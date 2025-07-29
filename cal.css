@@ -27,15 +27,16 @@ main{
     
 }
 .number{
-    width: 54px;
-    height: 54px;
-    border:2px solid black;
-    border-radius: 15px;
-    text-align: center;
-    font-size: xx-large;
-    color: rgb(249, 252, 252);
+    width: 55px;
     
-    background-color: rgb(102, 97, 106);
+    border:1px solid  black;
+    border-radius: 35px;
+    text-align: center;
+    
+    
+     text-align: center;
+    font-size: xx-large;
+    
 
 }
 
@@ -46,35 +47,37 @@ main{
     padding: 54px;
     border: 10px;
     border-radius: 30px;
-    background-color: rgb(84, 77, 88);
+    background-color: rgb(226, 218, 231);
     box-shadow: 5px 5px 15px rgba(38, 31, 31, 0.3);
      border: 2px solid black;
 }
 .display {
-    background-color: rgb(154, 135, 135);
+    background-color: rgb(209, 206, 222);
     width: 490%;
     height: 50%;
     color: rgb(76, 68, 68);
-    padding: 2px;
+    padding: 4px;
     text-align: right;
     font-family: monospace;
     border-radius: 1px;
-
+    padding-right: 3px;
+    padding-top: 25px;
+    margin-right: 70px;
     height: 40px;
     box-shadow: inset 1px 1px 4px rgba(0,0,0,0.2);
     font-size: 20px;
-    margin-bottom: 0;
-    border: 2px solid black;
+
+    border-color:  rgb(84, 77, 88);;
 }
 .des{
     width: 54px;
     height: 54px;
     border:2px solid black;
-    border-radius: 15px;
+    border-radius: 20px;
     text-align: center;
     font-size: xx-large;
-    color: rgb(1, 36, 40);
     
-    background-color: rgb(169, 95, 48);
+    
+    background-color: rgb(176, 163, 221);
 
 }
