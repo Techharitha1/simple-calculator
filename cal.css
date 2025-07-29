@@ -1,0 +1,80 @@
+
+h1{
+    font-size: 50px;
+    color: black;
+    padding: 5px;
+}
+header{
+    width: 22%;
+    padding: 30px;
+    
+}
+main{
+    width: 34.4%;
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+    
+}
+.container{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
+.number{
+    width: 54px;
+    height: 54px;
+    border:2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(249, 252, 252);
+    
+    background-color: rgb(102, 97, 106);
+
+}
+
+
+.box{
+    width: fit-content;
+    margin: 40px auto;
+    padding: 54px;
+    border: 10px;
+    border-radius: 30px;
+    background-color: rgb(84, 77, 88);
+    box-shadow: 5px 5px 15px rgba(38, 31, 31, 0.3);
+     border: 2px solid black;
+}
+.display {
+    background-color: rgb(154, 135, 135);
+    width: 490%;
+    height: 50%;
+    color: rgb(76, 68, 68);
+    padding: 2px;
+    text-align: right;
+    font-family: monospace;
+    border-radius: 1px;
+
+    height: 40px;
+    box-shadow: inset 1px 1px 4px rgba(0,0,0,0.2);
+    font-size: 20px;
+    margin-bottom: 0;
+    border: 2px solid black;
+}
+.des{
+    width: 54px;
+    height: 54px;
+    border:2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(1, 36, 40);
+    
+    background-color: rgb(169, 95, 48);
+
+}
